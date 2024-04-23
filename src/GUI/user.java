@@ -240,9 +240,9 @@ public class user extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         jComboBox1.addItem(jTextField5.getText());
-        jTextField5.setText("");
         System.out.println("Sucessfully added");
-        JOptionPane.showMessageDialog(this, "Sucessfully added");
+        JOptionPane.showMessageDialog(this, "Sucessfully added " +jTextField5.getText());
+        jTextField5.setText("");
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
